@@ -15,8 +15,8 @@ View [GDG Kansas City]'s site to see a working version of this application.
   * Clone the repository
 3. Open 'app.yaml' and add the name of the GAE project you just created
 4. Open 'index.html'
-  * Edit the <title> tag with your GDG name
-  * Edit the <meta> tags with your GDG name and URL
+  * Edit the "title" tag with your GDG name
+  * Edit the "meta" tags with your GDG name and URL
   * Edit the Google Analytics tracking script with your tracking code
 5. Open 'sitemap.xml' and edit with your GDG URL
 6. Open 'js/config.js' and fill out the top section with your GDG info
