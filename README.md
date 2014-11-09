@@ -3,9 +3,9 @@ Boomerang ported for App Engine (Python)
 This is forked from the [GDG-X boomerang] project.
 GDG boilerplate, feeds from DevSite and Google+ using AngularJS and Twitter Bootstrap.
 
-It was themed for use by GDG Kansas City, but you can modify the config.js file to have it pull from your chapter's Google+ page.
-
 This verson was designed to be used with the [CodEnvy IDE].
+
+View [GDG Kansas City]'s site to see a working version of this application.
 
 ### Steps to setup for your own GDG website:
 1. Fork this project into your own repository
@@ -28,5 +28,6 @@ This verson was designed to be used with the [CodEnvy IDE].
   * Include the sponsor name, URL, image
 
 [GDG-X boomerang]: https://github.com/gdg-x/boomerang
+[GDG Kansas City]: http://gdgkc.org
 [App Engine project]: https://appengine.google.com/
 [CodEnvy IDE]: https://codenvy.com
