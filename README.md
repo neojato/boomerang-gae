@@ -3,13 +3,13 @@ Boomerang ported for App Engine (Python)
 This is forked from the [GDG-X boomerang] project.
 GDG boilerplate, feeds from DevSite and Google+ using AngularJS and Twitter Bootstrap.
 
-This verson was designed to be used with the [CodEnvy IDE].
+This verson was designed to be used with the [Codenvy IDE]. This was for a simple push -> deploy to GAE from even a Chromebook.
 
 View [GDG Kansas City]'s site to see a working version of this application.
 
 ### Steps to setup for your own GDG website:
 1. Fork this project into your own repository
-2. Open the CodEnvy IDE and log in
+2. Open the Codenvy IDE and log in
   * Create a new Python project and select App Engine as your PaaS
   * Create an [App Engine project]
   * Clone the repository
@@ -30,4 +30,4 @@ View [GDG Kansas City]'s site to see a working version of this application.
 [GDG-X boomerang]: https://github.com/gdg-x/boomerang
 [GDG Kansas City]: http://gdgkc.org
 [App Engine project]: https://appengine.google.com/
-[CodEnvy IDE]: https://codenvy.com
+[Codenvy IDE]: https://codenvy.com
