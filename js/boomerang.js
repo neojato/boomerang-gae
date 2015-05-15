@@ -1,12 +1,9 @@
 var boomerang = angular.module('gdgBoomerang', ['ngSanitize', 'ngRoute', 'ui.bootstrap'])
     .config([
     '$httpProvider',
-    '$interpolateProvider',
     '$routeProvider',
     '$locationProvider',
-    function($httpProvider, $interpolateProvider, $routeProvider, $locationProvider) {
-        $interpolateProvider.startSymbol('{$');
-        $interpolateProvider.endSymbol('$}');
+    function($httpProvider, $routeProvider, $locationProvider) {
         $httpProvider.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
         $locationProvider.html5Mode(true);
         $routeProvider.
