@@ -1,6 +1,7 @@
 <!doctype html>
 <html ng-app="gdgBoomerang" itemscope itemtype="http://schema.org/Organization" lang="en">
 <head>
+    <base href="/">
     <title>[your GDG name]</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -8,16 +9,15 @@
     <meta itemprop="description" content="Google Developer Groups (GDG) are technology user groups that meet to discuss the latest Technologies, Tools, SDKs, &amp; APIs like Android, GWT, GAE, &amp; GCP.">
     <meta itemprop="image" content="http://[your GEA project id].appspot.com/images/gdg-logo.png">
     <meta name="application-name" content="GDG Boomerang">
-    <meta name="fragment" content="!" />
     <link rel="canonical" href="http://[your GEA project id].appspot.com" />
     <link href='http://fonts.googleapis.com/css?family=Roboto:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
     <link href="css/gdg.css" rel="stylesheet" media="screen">
     <link rel="icon" sizes="16x16 32x32" href="/favicon.ico">
     
-    <script src="http://code.angularjs.org/1.2.26/angular.min.js"></script>
-    <script src="http://code.angularjs.org/1.2.26/angular-route.min.js"></script>
-    <script src="http://code.angularjs.org/1.2.26/angular-sanitize.min.js"></script>
+    <script src="http://code.angularjs.org/1.3.15/angular.min.js"></script>
+    <script src="http://code.angularjs.org/1.3.15/angular-route.min.js"></script>
+    <script src="http://code.angularjs.org/1.3.15/angular-sanitize.min.js"></script>
     
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
     <script src="libs/angular.ui.min.js"></script>
@@ -33,7 +33,7 @@
         ga('send', 'pageview');
     </script>
 </head>
-<body ng-controller="MainControl">
+<body ng-controller="MainControl" ng-cloak>
 <!-- NAV -->
 <div class="navbar navbar-static-top navbar-inverse">
     <div class="navbar-inner">
@@ -43,13 +43,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="brand" id="gdg_chapter_name" href="#!/about">{$ chapter_name $}</a>
+            <a class="brand" id="gdg_chapter_name" href="/about">{$ chapter_name $}</a>
             <div class="nav-collapse" collapse="isNavCollapsed" ng-click="isNavCollapsed = true">
                 <ul class="nav">
-                    <li ng-class="{ 'active' : activeTab=='about' }"><a href="#!/about">About</a></li>
-                    <li ng-class="{ 'active' : activeTab=='news' }"><a href="#!/news">News</a></li>
-                    <li ng-class="{ 'active' : activeTab=='events' }"><a href="#!/events">Events</a></li>
-                    <li ng-show="photos" ng-class="{ 'active' : activeTab=='photos' }"><a href="#!/photos">Photos</a></li>
+                    <li ng-class="{ 'active' : activeTab=='about' }"><a href="/about">About</a></li>
+                    <li ng-class="{ 'active' : activeTab=='news' }"><a href="/news">News</a></li>
+                    <li ng-class="{ 'active' : activeTab=='events' }"><a href="/events">Events</a></li>
+                    <li ng-show="photos" ng-class="{ 'active' : activeTab=='photos' }"><a href="/photos">Photos</a></li>
                     <li ng-show="google_plus_link"><a ng-href="{$ google_plus_link $}" href="{$ google_plus_link $}" rel="publisher" target="_blank">Google+</a></li>
                     <li ng-show="youtube_link"><a ng-href="{$ youtube_link $}" target="_blank">YouTube</a></li>
                     <li ng-show="meetup_link"><a ng-href="{$ meetup_link $}" target="_blank">Meetup</a></li>
