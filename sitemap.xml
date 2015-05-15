@@ -6,22 +6,22 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>http://[your GEA project id].appspot.com/#!/about</loc>
+        <loc>http://[your GEA project id].appspot.com/about</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://[your GEA project id].appspot.com/#!/events</loc>
+        <loc>http://[your GEA project id].appspot.com/events</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://[your GEA project id].appspot.com/#!/news</loc>
+        <loc>http://[your GEA project id].appspot.com/news</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://[your GEA project id].appspot.com/#!/photos</loc>
+        <loc>http://[your GEA project id].appspot.com/photos</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
